@@ -12,8 +12,28 @@
     </header>
 
     <main>
-        <button onclick="addBookToLibrary()">Add New Book</button>
+        <button id="newBookBtn">NEW BOOK</button>
         <div id="bookshelf"></div>
+
+        <dialog id="bookDialog">
+            <form id="bookForm">
+                <h2>Add New Book</h2>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+
+                <label for="pages">Number of Pages:</label>
+                <input type="number" id="pages" name="pages" required>
+
+                <label for="read">Have you read it?</label>
+                <input type="checkbox" id="read" name="read">
+
+                <button type="submit">Add Book</button>
+                <button type="button" id="cancelBtn">Cancel</button>
+            </form>
+        </dialog>
     </main>
 
     <footer>
