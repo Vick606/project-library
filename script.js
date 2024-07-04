@@ -88,6 +88,11 @@ addBookToLibrary("You Don't Know JS: Up & Going", "Kyle Simpson", 88, false);
 addBookToLibrary("JavaScript: The Good Parts", "Douglas Crockford", 176, true);
 addBookToLibrary("JavaScript: The Definitive Guide", "David Flanagan", 706, false);
 addBookToLibrary("Clean Code in JavaScript", "James Padolsey", 410, false);
+addBookToLibrary("HTML and CSS: Design and Build Websites", "Jon Duckett", 490, false);
+addBookToLibrary("CSS Secrets", "Lea Verou", 392, false);
+addBookToLibrary("HTML5: The Missing Manual", "Matthew MacDonald", 518, true);
+addBookToLibrary("CSS: The Definitive Guide", "Eric A. Meyer & Estelle Weyl", 1090, false);
+addBookToLibrary("Learning Web Design", "Jennifer Niederst Robbins", 808, false);
 
 // Initial display of books
 displayBooks();
