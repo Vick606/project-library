@@ -21,7 +21,7 @@ Welcome to the My Awesome Library App! This project is a part of The Odin Projec
 - CSS3
 - JavaScript (ES6+)
 
-## 🏁 Getting Started
+# 🏁 Getting Started
 
 To get a local copy up and running, follow these simple steps:
 
@@ -29,22 +29,22 @@ To get a local copy up and running, follow these simple steps:
 2. Navigate to the project directory
 3. Open index.html in your browser
 
-🤝 Contributing
+# 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Fork the Project
-Create your Feature Branch 
-Commit your Changes 
-Push to the Branch 
-Open a Pull Request
+# Fork the Project
+- Create your Feature Branch 
+- Commit your Changes 
+- Push to the Branch 
+- Open a Pull Request
 
-📜 License
-Distributed under the GNU General Public License v3.0. See LICENSE for more information.
+# 📜 License
+- Distributed under the GNU General Public License v3.0. See LICENSE for more information.
 
-📞 Contact
-vickoch20@gmail.com
-Project Link: 
+# 📞 Contact
+- vickoch20@gmail.com
 
-🙏 Acknowledgements
-The Odin Project
-GitHub Pages
+
+# 🙏 Acknowledgements
+- The Odin Project
+- GitHub Pages
