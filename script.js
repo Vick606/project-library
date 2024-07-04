@@ -82,9 +82,30 @@ bookForm.addEventListener('submit', (e) => {
     bookDialog.close();
 });
 
-// Initial books and display
-addBookToLibrary("The Hobbit", "J.R.R. Tolkien", 295, true);
-addBookToLibrary("To Kill a Mockingbird", "Harper Lee", 281, false);
-addBookToLibrary("1984", "George Orwell", 328, true);
+// Initial books
+addBookToLibrary("Eloquent JavaScript", "Marijn Haverbeke", 472, false);
+addBookToLibrary("You Don't Know JS: Up & Going", "Kyle Simpson", 88, false);
+addBookToLibrary("JavaScript: The Good Parts", "Douglas Crockford", 176, true);
+addBookToLibrary("JavaScript: The Definitive Guide", "David Flanagan", 706, false);
+addBookToLibrary("Clean Code in JavaScript", "James Padolsey", 410, false);
 
+// Initial display of books
 displayBooks();
+
+// Scroll to top functionality
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopBtn.style.display = "block";
+    } else {
+        scrollToTopBtn.style.display = "none";
+    }
+}
+
+scrollToTopBtn.addEventListener("click", function(){
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+});
