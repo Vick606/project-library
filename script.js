@@ -1,4 +1,3 @@
-// Book constructor and prototype
 function Book(title, author, pages, read) {
     this.title = title;
     this.author = author;
@@ -10,7 +9,6 @@ Book.prototype.toggleRead = function() {
     this.read = !this.read;
 };
 
-// Library array and functions
 const myLibrary = [];
 
 function addBookToLibrary(title, author, pages, read) {
@@ -55,7 +53,6 @@ function toggleReadStatus(index) {
     displayBooks();
 }
 
-// Dialog and form handling
 const newBookBtn = document.getElementById('newBookBtn');
 const bookDialog = document.getElementById('bookDialog');
 const bookForm = document.getElementById('bookForm');
@@ -94,10 +91,8 @@ addBookToLibrary("HTML5: The Missing Manual", "Matthew MacDonald", 518, true);
 addBookToLibrary("CSS: The Definitive Guide", "Eric A. Meyer & Estelle Weyl", 1090, false);
 addBookToLibrary("Learning Web Design", "Jennifer Niederst Robbins", 808, false);
 
-// Initial display of books
 displayBooks();
 
-// Scroll to top functionality
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
 window.onscroll = function() {scrollFunction()};
